@@ -5,10 +5,8 @@ spring:
       active: dev
 hbase:
    config:
-      hbase.zookeeper.quorum: 192.168.209.129
-      hbase.zookeeper.port: 2181
-      hbase.zookeeper.znode: /hbase
-      hbase.client.keyvalue.maxsize: 1572864000
+      quorum: 10.50.20.171
+      port: 2181
 
 
 
